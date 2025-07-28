@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in html & css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading-box">
+        <h2><b>User Management</b></h2>
+    </div>
+    <div class="header-right"></div>
+            <div class="buttons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625Z" />
+                    <path d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z" />
+                </svg>
+                <p>Export to Excel</p>
+            </div>
+            <div class="buttons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+                </svg>
+                <p>Add New User</p>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Date Created</th>
+            <th>Role</th>
+            <th>Status</th>
+            <hr><hr>
+        </tr>
+        
+        <tr class="horizontal_line">
+        <td>1</td>
+        <td><div class="name1-pic">
+          <img src="pexels-marta-klement-636760-1438081.jpg" > Michael Holz</div>
+       </td>
+        <td>04/10/2013</td>
+        <td>Admin</td>
+        <td>Active</td>
+        </tr>
+        <hr>
+        <tr class="horizontal_line"></tr>
+            <td>2</td>
+            <td><div class="name2-pic">
+                <img src="istockphoto-2209013928-612x612.webp" width="30px">
+                Paula Wilson</div>
+            </td>
+            <td>05/08/2014</td>
+            <td>Publisher</td>
+            <td>Active</td>
+        </tr>
+        <tr class="horizontal_line">
+            <td>3</td>
+            <td> <div class="name3-pic"><img src="istockphoto-2160439321-612x612.webp" width="30px"> Antonio Moreno</div></td>
+            <td>11/5/2015</td>
+            <td>Publisher</td>
+            <td>Suspended</td>
+        </tr>
+        <tr class="horizontal_line">
+            <td>4</td>
+            <td><div class="name4-pic"><img src="istockphoto-2162644435-612x612.webp" width="30px">Mary Saveley</div></td>
+            <td>06/09/2016</td>
+            <td>Reviewer</td>
+            <td>Active</td>
+            
+        </tr>
+        <tr class="horizontal_line">
+            <td>5</td>
+            <td><div class="name5-pic"><img src="pexels-marta-klement-636760-1438081.jpg" width="30px">Martin Sommer</div></td>
+            <td>12/08/2017</td>
+            <td>Moderator</td>
+            <td>Inactive</td>
+
+        </tr>
+    </table>
+    </div>
+     <div class="footer"></div>
+        <div class="footer_left">
+        Showing <b>5</b> out of <b>25</b> entries
+        </div>
+
+        <div class="footer_right"></div>
+            <div class="next-or-previous-page">Previous</div>
+            <div class="page">1</div>
+            <div class="page">2</div>
+            <div class="page active">3</div>
+            <div class="page">4</div>
+            <div class="page">5</div>
+            <div class="next-or-previous-page">Next</div>
+</body>
+</html>

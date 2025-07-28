@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.heading-box{
+    background-color: skyblue;
+    margin: 0px;
+    padding: 10px;
+}
+.header-right{
+      display: flex;
+  gap: 20px;
+
+}
+.buttons {
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: flex;
+}
+
+svg {
+  height: 20px;
+  width: 20px;
+  color: black;
+  margin-top: 2px;
+}
+
+p {
+  color:black;
+  font-size: small;
+  margin: 5px;
+}
+
+body {
+  padding: 20px;
+}
+.name1-pic img{
+border-radius: 80%;
+width: 30px;
+}
+.name2-pic img{
+    border-radius: 80%;
+}
+.name3-pic img{
+    border-radius: 80%;
+}
+.name4-pic img{
+    border-radius: 80%;
+}
+.name5-pic img{
+    border-radius: 80%;
+}
+td , th{
+    padding: 40px;
+    border: 10px;
+    margin: 20px;
+}
+tr.horizontal_line{
+  border-bottom: 4px solid black;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.footer_left {
+  color: black;
+  font-size: 14px;
+}
+
+.footer_left b {
+  font-weight: bold;
+}
+
+.footer_right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.page {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: black;
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+.page.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.next-or-previous-page {
+  color: black;
+  background-color: transparent;
+}
+    
